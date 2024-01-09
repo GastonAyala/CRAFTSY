@@ -1,0 +1,30 @@
+:root {
+    /* COLORES */
+    --orange: #ef4c27;
+    --white: #ffffff;
+    --skyblue: #bcf2ff;
+    --ligthgray: #e1e1e1;
+    --searover: #a3d4e3;
+    /* TIPOGRAFIA */
+    --familyRoboto: 'Roboto', 'Sans-serif';
+}
+
+* body {
+    box-sizing: border-box;
+    font-family: var(--familyRoboto);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
